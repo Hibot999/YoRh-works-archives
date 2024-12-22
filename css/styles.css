@@ -10,62 +10,62 @@ body {
 header {
     color: #333; /* Change the text color if needed */
     text-align: center;
-    padding: 1rem 0;
+    padding: 1 rem 0;
     position: relative;
     background-color: transparent; /* Remove the background color */
     border: none; /* Remove any border */
 }
 .header-image {
-    width: 80%;
+    width: 80 %;
     height: auto;
 }
 
 h1 {
     margin: 0;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50 %;
+    left: 50 %;
+    transform: translate (-50 %, -50 %);
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent background to the text */
-    padding: 10px;
+    background-color: rgba (0, 0, 0, 0.5); /* Optional: adds a semi-transparent background to the text */
+    padding: 10 px;
 }
 
 main {
-    padding-bottom: 2rem; /* Adjust the value as needed */
+    padding-bottom: 2 rem; /* Adjust the value as needed */
 }
 
 footer {
     text-align: center;
-    padding: 1rem 0;
+    padding: 1 rem 0;
     background-color: #f8f8f8; /* Optional: Add a background color to the footer */
-    border-top: 1px solid #ddd; /* Optional: Add a top border to the footer */
+    border-top: 1 px solid #ddd; /* Optional: Add a top border to the footer */
 }
 
 /* Gallery Styles */
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1 rem;
     justify-content: center;
 }
 
 .gallery-item {
     background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1 px solid #ddd;
+    border-radius: 5 px;
     overflow: hidden;
-    width: 300px;
+    width: 300 px;
     text-align: center;
 }
 
 .gallery-item img {
-    width: 100%;
+    width: 100 %;
     height: auto;
 }
 
 .gallery-item p {
-    padding: 0.5rem;
+    padding: 0.5 rem;
 }
 .exo-custom-font {
     font-family: "Exo", serif;
@@ -85,23 +85,14 @@ footer {
     opacity: 0; /* Start with the image hidden */
     animation: fadeIn 2s forwards; /* Apply the fade-in animation */
 }
-
-@keyframes fadeIn {
-    from {
-        opacity: 0; /* Start with the image hidden */
-    }
-    to {
-        opacity: 1; /* End with the image fully visible */
-    }
-}
 .slogan {
     font-family: 'Exo', serif; /* Use your preferred font */
-    font-size: 4rem; /* Make the text much bigger */
+    font-size: 4 rem; /* Make the text much bigger */
     font-weight: 300;
     color: #070707;
     text-align: left; /* Left-justify the text */
-    margin-top: 3rem; /* Add space above the slogan */
-    margin-bottom: 4rem; /* Add space below the slogan */
-    padding-left: 13rem; /* Add some padding to the left if needed */
+    margin-top: 3 rem; /* Add space above the slogan */
+    margin-bottom: 4 rem; /* Add space below the slogan */
+    padding-left: 13 rem; /* Add some padding to the left if needed */
     line-height: 1.2; /* Adjust line height to control spacing between lines */
 }
